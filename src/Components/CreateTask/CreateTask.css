@@ -1,0 +1,22 @@
+.createTask{
+    color:white;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #ea9709;
+    border: none;
+    border-radius: 50%;
+    font-size: 4rem;
+    font-weight: bold;
+    bottom: 15px;
+    right: 15px;
+    z-index:1;
+    box-shadow: 0px 0px 8px rgba(192, 192, 192, 0.5);
+    transform: rotate(0);
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.createTask:hover{
+    transform: rotate(360deg);
+}
